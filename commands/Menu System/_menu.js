@@ -45,7 +45,7 @@ var balance = Libs.ResourcesLib.userRes("balance");
 var withdrawn = Libs.ResourcesLib.userRes("withdrawn");
 var ref = Libs.ResourcesLib.userRes("referral");
 var msgid = User.getProperty("msgid")
-var bu="💳 Balance\n➕ TRX-Invest,💱 TRX-ReInvest\n🎁 Bonus,👥 Invite,💼 Wallet\n⁉️ Help,➖ Withdraw,📊 Statistics\n📞 Support,📶 Live"
+var bu="💳 Balance\n➕ TRX-Invest,💱 TRX-ReInvest\n👥 Invite,➖ Withdraw"
 Bot.sendKeyboard(bu,"_🥳 Welcome To The World's Best Investment Bot_")
 }
 if (user=="left"){
